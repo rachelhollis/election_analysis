@@ -8,6 +8,8 @@ The following tasks were given to complete the election audit of a local electio
 4. Calculate the percentages of votes each candidate recieved
 5. Determine the winner of the election
 
+## Purpose
+
 ## Resources
 - Data Source: election_results.csv
 - Software: Python
