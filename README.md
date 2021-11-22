@@ -17,10 +17,13 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 
 ## Election-Audit Results:
 
-### County Analysis
+### Total Votes Cast
 
 ![resources/total_votes](resources/total_votes.jpg)
+
 - A for loop was used to determine the total votes in the election data set. Every row was counted as one vote. There was a total of 369,711 votes in the election audit.
+
+### County Analysis
 
 ![resources/candidate_votes](resources/candidate_votes.jpg)
 
@@ -41,9 +44,21 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 
 ### Candidate Analysis
 
+![resources/county_votes](resources/county_votes.jpg)
 
+- Lines 56 – 65, inside the for loop (line 42) in the python script, were used to determine the candidates that received votes and the total number of votes they received. 
+  - Charles Casper Stockham: 85,213 
+  - Diana DeGetter: 272,892
+  - Raymon Anthony Doane: 11,606
 
+![resources/candidate_results](resources/candidate_results.jpg)
 
-## Challenge Overview
+- Similar to the county analysis, the percentage of votes each candidate received in lines 129 - 141
+  - Charles Casper Stockham: 23.0% of the total vote
+  - Diana DeGetter: 73.8% of the total vote
+  - Raymon Anthony Doane: 3.1% of the total vote
+
+- The winner of the election based on the highest percentage of the popular vote was determined from the if statement in lines 144-156
+  - Winner of the election was Diana DeGetter: 73.8% (272,892)
 
 ## Challenge Summary
