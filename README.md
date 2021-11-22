@@ -66,7 +66,7 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 ![resources/election_analysis](resources/election_analysis.PNG)
 
 The results were output into 
-[the election analyis txt file](electionresults.txt)
+[the election results txt file](electionresults.txt)
 
 ## Summary
 
