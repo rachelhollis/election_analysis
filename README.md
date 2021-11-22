@@ -39,7 +39,7 @@ Perform analysis on the election audit results. Specifically, use Python to anal
   - Denver: 82.8% of the total votes
   - Arapahoe: 6.7% of the total votes
 
-- Lines 110 – 123 determined which county had the highest percentage and output the results to the text file. 
+- Lines 110 – 123 determined which county had the highest percentage  
   - The county with the highest voter turnout was Denver: 82.8% (306,055)
 
 ### Candidate Analysis
@@ -53,7 +53,7 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 
 ![resources/candidate_results](resources/candidate_results.jpg)
 
-- Similar to the county analysis, the percentage of votes each candidate received in lines 129 - 141
+- Similar to the county analysis, the percentage of votes each candidate received was calculated in lines 129 - 141
   - Charles Casper Stockham: 23.0% of the total vote
   - Diana DeGetter: 73.8% of the total vote
   - Raymon Anthony Doane: 3.1% of the total vote
@@ -61,4 +61,10 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 - The winner of the election based on the highest percentage of the popular vote was determined from the if statement in lines 144-156
   - Winner of the election was Diana DeGetter: 73.8% (272,892)
 
+### Overall Results
+
+![resources/election_analysis](resources/election_analysis.PNG)
+
+The results were output into 
+[resources/election_results1.txt](resources/election_results1.txt)
 ## Challenge Summary
