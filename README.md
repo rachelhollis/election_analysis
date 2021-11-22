@@ -68,4 +68,6 @@ Perform analysis on the election audit results. Specifically, use Python to anal
 The results were output into 
 [the election analyis txt file](resources/election_results1.txt)
 
-## Challenge Summary
+## Summary
+
+The python script successfully determined the outcome of the election and established relative data in regards to the counties and candidates in the election. Further editing of this script could be very beneficial for any election going forward. For example, the script could be modified to determine the candidate with the highest vote per county. This will allow further analysis on the popularity of candidates per county rather than just overall. Further refactoring of the code could also be extremely useful when analyzing a much bigger election i.e. a presidential election. Additionally, adding script to analyze states and cities could provide a futher breakdown of votes and voter turnout over the whole country and/or state by state. 
